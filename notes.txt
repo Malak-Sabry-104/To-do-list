@@ -1,0 +1,26 @@
+1- i can't add a <div> bet. <row> <col> tag instead of doing thta we can add another class to the <row>
+
+--- (preferred always to integrate all repeated items in a one container to facilitate dealing with js )---
+
+ but we can do it with <container> and <row>
+
+
+2- we can use flex prop. with <row> <col> etc. directly without giving them d-flex because it based on flexbox actully like gap-3 , justify-content-center etc.
+
+
+3- the diff. bet. gap and gutter is that :
+=======================================
+1) gap: is a css prop. for flex or grid it used to leave a space between flex and grid cols ,rows (vertically or horizontally) its units (%,px,em)
+
+2) gutter: it is a BS predefined class its unit is rem it used to leave a space bet. BS grid system only (rows , cols ) (vertically,horizontally)
+
+
+4-.add-btn {
+width: 50px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+To adjust the aspect ration any button is not square
+use a  fixed width and height
